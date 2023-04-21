@@ -1,0 +1,276 @@
+<!-- Terminal portfolio website -->>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+    <link rel="icon" href="./lg.png" />
+    <title>Prithwish Sarkar-Portfolio 2k23</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
+
+    <style type="text/css">
+        .terminal,
+        span,
+        .cmd,
+        div {
+            --color: rgba(222, 227, 222, 0.99);
+        }
+
+        .terminal,
+        span {
+            --size: 1.4;
+        }
+
+        body {
+            background-color: #000000;
+        }
+        
+        .terminal span {
+            color: #00ff00;
+        }
+
+        .terminal .cmd {
+            color: #00ff00;
+        }
+
+        .terminal .prompt {
+            color: #00ff00;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0.5em;
+        }
+
+        
+
+        ::-webkit-scrollbar-thumb {
+            background-color: darkgrey;
+            outline: 1px solid slategrey;
+        }
+
+        .terminal .cursor {
+            background-color: #00ff00;
+        }
+
+        .terminal .error {
+            color: #ff0000;
+        }
+
+        .terminal .cmd {
+            color: #00ff00;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <script>
+        $('body').terminal({
+            
+            
+            help: function () {
+                this.echo(' \n Type abt to know more about me' +
+                    ' \n Type edu to know more about me' +
+                    ' \n Type exp to know more about me' +
+                    ' \n Type skl to know langauges and tools I use' +
+                    ' \n Type prj to know about projects I have done so far' +
+                    ' \n Type ccf to know about courses and certificates I have done and gained so far' +
+                    
+                    ' \n Type cnt to know about how to contact me and get links'+
+                    ' \n'+
+                    ' \n----------------------------------------------------------------------'+'\n'
+
+                );
+            },
+
+            abt: function () {
+                this.echo(' \n I am a 2nd year student at Techno Main Saltlake' +
+                    ' \n I am a Computer Science and Engineering student' +
+                    ' \n I am a Web Developer' +
+                    ' \n I am a Competitive Programmer'+
+                    ' \n I am a Freelancer'+
+                    ' \n I am a Teacher'+
+                    ' \n'+
+                    ' \n----------------------------------------------------------------------'+'\n'
+                    
+                );
+            },
+            
+            edu: function () {
+                this.echo(' \n I am a 2nd Year Student at Techno Main Saltlake' +
+                    ' \n I am a Computer Science and Engineering Student' +
+                    ' \n I am a Web Developer' +
+                    ' \n I am a Competitive Programmer'+
+                    ' \n I am a Freelancer'+
+                    ' \n I am a Teacher'+
+                    ' \n'+
+                    ' \n EDUCATION'+'\n'+
+                    ' \n Bachelor Of Technology in Computer Science And Engineering'+
+                    ' \n Techno Main Saltlake (2021 - 2025)'+
+                    ' \n I qualified in WBJEE 2021 with a rank of 3775 and took admission here in 2nd round of counselling.'+
+                    ' \n'+
+                    ' \n Indian Certificate of Secondary Education (ICSE)'+
+                    ' \n Vivekananda Mission School (2005 - 2019)'+
+                    ' \n I got 97% in ICSE examination and took up Science stream(PCMB) for higher secondary classes.'+
+                    ' \n'+
+                    ' \n Indian School Certificate (ISC)'+
+                    ' \n Vivekananda Mission School (2019 - 2021)'+
+                    ' \n I got 94% in ISC examination, secured AIR 3775 in WBJEE.'
+                    +' \n'+
+                    ' \n----------------------------------------------------------------------'+'\n'
+                );
+            },
+
+            exp: function() {
+                this.echo(
+                    ' \n Google Cloud Ready Facilitator Program'+
+                    ' \n Google Cloud (Apr 2022 - Jun 2022 · 3 mos)'+
+                    ' \n Completed all 4 tracks and got a hands-on learning of Google Cloud Basics.'+
+                    ' \n'+
+                    ' \n College Ambassador'+
+                    ' \n MOOD INDIGO IIT BOMBAY (Oct 2022 - Mar 2023 · 6 mos)'+
+                    ' \n Got to know about Social Media marketing, Public Relations and Event Management.Secured Participation and Excellence certificate with rank 2478 and 10236 points.'+
+                    ' \n'+
+                    ' \n Web Development Intern'+
+                    ' \n The Sparks Foundation (TSF) (Nov 2022 - Dec 2022 · 2 mos)'+
+                    ' \n Created 3 Individual Projects during my Internship and managed several Group projects/Work. 1 =>Created A Basic Banking System Website. 2 =>Created A Movie Recommender Website. 3 =>Created A Memory Game.'+
+                    ' \n'+
+                    ' \n----------------------------------------------------------------------'+'\n'
+
+
+                );
+
+
+            },
+
+            skl: function () {
+                this.echo(
+                    '\n JAVA         |-------->70%'+
+                    '\n C            |-----> 50%'+
+                    '\n Python       |-------> 80%'+
+                    '\n HTML         |---------> 90%'+
+                    '\n CSS          |------> 50%'+
+                    '\n JavaScript   |-----> 50%'+
+                    '\n ML           |---> 30%'+
+                    '\n Teaching     |---------> 90%'+
+                    '\n Bootstrap    |------> 55%'+
+                    '\n PHP          |-------> 70%'+
+                    '\n MySQL        |-----> 50%'+
+                    '\n Django       |----> 40%'+
+                    '\n XAMPP        |----> 40%'+
+                    '\n jQuery       |------> 60%'+
+                    '\n JSON         |------> 60%'+
+                    '\n Git & Github |--------> 80%'+
+                    '\n'+
+                    ' \n----------------------------------------------------------------------'+'\n'
+
+
+
+                );
+
+            },
+
+            prj: function () {
+                this.echo('\n My recent projects'+
+                    '\n'+
+                    '\n 1.Terminal Portfolio'+
+                    '\n -----------------------'+
+                    '\n Link: https://gngkaijl2bh7ohhsun0tgg.on.drv.tw/www.Doctors%20Clinic/'+
+                    '\n Terminal Portfolio is a website for a portfolio. Made using HTML, CSS, JAVAScript, jQuery.'+                    
+                    '\n'+
+                    '\n 2.Movie Recommendation Website'+
+                    '\n -----------------------'+
+                    '\n Link: https://pritz69.github.io/MovieRecommenderSite/'+
+                    '\n A website built using HTML5,CSS3,JS,Bootstrap. It can recommend movies to users based on their preferences and choices. A Machine Learning Algorithm was used for developing the site.'+
+                    '\n'+
+                    '\n 3.Memory Game '+
+                    '\n -----------------------'+
+                    '\n Link: https://pritz69.github.io/MemoryGame/'+
+                    '\n A website developed using HTML, Javascript and CSS frameworks which keeps a check on the users memory and enhances their remembering skills/memory through an attractive game with audio-visual effects ! Lets Give It A Try ?!'+
+                    '\n'+
+                    '\n 4.Calculator'+
+                    '\n -----------------------'+
+                    '\n Link: https://pritz69.github.io/Calculator/'+
+                    '\n A running and responsive calculator for mathematical operations,built using HTML and CSS. JavaScript was implemented for taking the button responses and performing the required calculations.It comes with dual mode(dark and light) with visual effects.'+
+                    '\n'+
+                    '\n 5.Music Player'+
+                    '\n -----------------------'+
+                    '\n Link: https://pritz69.github.io/Music_Player/'+
+                    '\n A Music Player Site built using HTML,CSS and JS which contains a playlist of songs, which users can play and listen to as per their choice.'+
+                    '\n'+
+                    '\n 6.Wine Quality Prediction Model'+
+                    '\n -----------------------'+
+                    '\n Link: https://github.com/Pritz69/Wine_Quality_Prediction_ML'+
+                    '\n A Machine Learning Model built using Neural Networks and Deep Learning Algorithms which predicts the wine of best quality!'+
+                    '\n'+
+                    ' \n----------------------------------------------------------------------'+'\n'                
+                );
+
+            },
+
+            ccf: function () {
+                this.echo(
+                    '\n courses      |-----> 40'+
+                    '\n certificates |-----> 24'+
+                    ' \n 1. Infosys Complete Web Development Course'+
+                    ' \n 2. Infosys Machine Learning Course'+
+                    ' \n 3. Infosys Data Science Course'+
+                    ' \n 4. TCSion Student Expert'+
+                    ' \n 5. JP Morgan Student Expert'+
+                    ' \n 6. Google Cloud Ready Facilitator Program'+
+                    ' \n ...'+
+                    ' \n'+
+                    ' \n More details on LinkdeIn: https://www.linkedin.com/in/prithwish-sarkar-b08baa221/'+
+                    ' \n----------------------------------------------------------------------'+'\n'
+                
+                
+                );
+            },
+
+            
+
+            cnt: function () {
+                this.echo(
+                    '\n Email: pritz1824@gmail.com' + 
+                    '\n LinkedIn: https://www.linkedin.com/in/prithwish-sarkar-b08baa221/' +
+                    '\n Github: https://github.com/Pritz69' +
+                    '\n Instagram: https://www.instagram.com/stoneman.__/'+
+                    '\n Twitter: https://twitter.com/_ItsPritz_'+
+                    '\n'+
+                    ' \n----------------------------------------------------------------------'+'\n'
+                );
+                    
+            },
+
+            clr: function () {
+                this.clear();
+            },
+
+
+
+        }, {
+            greetings: 'Welcome to my Portfolio © 2k23 PRITHWISH SARKAR' +
+                ' \n------------------------------------------------------------------------------------------------------------------------------------------------' + '\n' +
+                ' \n Type help to know the available commands'+ 
+                ' \n Type clr to clear the console'+
+                ' \n Refresh browser to generate home'+
+                ' \n'+
+                ' \n------------------------------------------------------------------------------------------------------------------------------------------------'+'\n'
+
+
+
+
+        });
+    </script>
+</body>
+
+</html>
